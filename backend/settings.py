@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^&&vs@4$%sswjvok*m+jyln8v0aop(b_rok_b$1p&oj8kp#$ii
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['backend-web-fapecafes.onrender.com']
+ALLOWED_HOSTS = ['entorno-backend-fapecafes.onrender.com']
 
 
 # Application definition
