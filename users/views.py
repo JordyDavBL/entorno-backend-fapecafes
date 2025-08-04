@@ -146,7 +146,7 @@ def seleccionar_muestras(request):
                 muestras_creadas.append(muestra)
             
             # Actualizar estado del lote
-            lote.estado = 'EN_PROCESO'
+            lote.estado = 'APROBADO'
             lote.save()
             
             # Registrar acción en bitácora
