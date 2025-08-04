@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backend-django
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn backend.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: <tu_nombre_de_proyecto>.settings
