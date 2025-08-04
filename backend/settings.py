@@ -72,10 +72,10 @@ MIDDLEWARE = [
 ]
 
 # Configuración de CORS
-CORS_ALLOW_ALL_ORIGINS =[
+CORS_ALLOWED_ORIGINS = [
     "https://jordydavbl.github.io",
     "https://jordydavbl.github.io/frontend-Web-Fapecafes",
-    ]  # Sólo para desarrollo, en producción especifica los orígenes
+]
 
 CORS_ALLOW_CREDENTIALS = True
 
